@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Blank Standard HTML5 Web App Template</title>
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+
+        <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=no">
+        <style>
+            @-ms-viewport { width: 100vw ; min-zoom: 100% ; zoom: 100% ; }  @viewport { width: 100vw ; min-zoom: 100% zoom: 100% ; }
+            @-ms-viewport { user-zoom: fixed ; min-zoom: 100% ; }           @viewport { user-zoom: fixed ; min-zoom: 100% ; }
+        </style>
+
+        <script
+                  src="https://code.jquery.com/jquery-3.1.1.js"
+                  integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+                  crossorigin="anonymous">
+        </script>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+        <script src="cordova.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+        <script type="text/javascript" src="js/reader.js"></script>
+        <script type="text/javascript" src="js/book.js"></script>
+        <script type="text/javascript" src="js/loan.js"></script>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" href="css/index.css">
+
+    </head>
+
+    <body>
+        <div class="row">
+            <div class="col s12">
+                <ul class="tabs">
+                    <li class="tab col s3"><a class = "active" href="#reader">Lectores</a></li>
+                    <li class="tab col s3"><a href="#book">Libros</a></li>
+                    <li class="tab col s3"><a href="#loan">Préstamos</a></li>
+                </ul>
+            </div>
+
+            <div id="reader" class="col s12">
+
+            </div>
+
+            <div id="book" class="col s12">
+
+            </div>
+
+            <div id="loan" class="col s12">
+
+            </div>
+        </div>
+    </body>
+</html>
